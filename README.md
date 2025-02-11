@@ -8,4 +8,4 @@ If you choose random points on circles centered at the vertexes of a an equilate
 ![6](https://github.com/user-attachments/assets/042f2fc4-2680-490a-98ec-1801a545e200)
 ![7](https://github.com/user-attachments/assets/cdd12a8c-08d2-4633-b53d-71a2228c0493)
 
-[![IMAGE ALT TEXT HERE]](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://youtu.be/ngsmxTpkFVQ)
+(https://youtu.be/ngsmxTpkFVQ)
