@@ -27,7 +27,7 @@ def draw_midlines(screen, points, depth):
         color = get_color(i)  
         pygame.draw.line(screen, color, (points[i][0],points[i][1]), (points[j][0],points[j][1]), 2)
         midpoints.append((((points[i][0] + points[j][0])/2), ((points[i][1] + points[j][1])/2)))
-    if(depth < 5):
+    if(depth < 6):
         draw_midpoints(screen, midpoints, depth+1)
 
 def draw_midpoints(screen, points, depth):   
@@ -66,6 +66,7 @@ def main():
 
     # Set up the display
     screen = pygame.display.set_mode((800,800))
+    pygame.display.set_caption("approaching a regular polygon")
     points = [(273, 181),(527, 181),(654, 400),(527, 619),(273, 619),(146, 400)]
     thetas = [random.randint(0,360),random.randint(0,360),random.randint(0,360),random.randint(0,360),random.randint(0,360),random.randint(0,360)]
     radius = 80
